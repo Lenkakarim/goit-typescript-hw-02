@@ -32,13 +32,6 @@ const App = () => {
   });
 
   useEffect(() => {
-    // const savedQuery = localStorage.getItem("query");
-    // const savedPage = JSON.parse(
-    //   localStorage.getItem("page") || 1
-    // ) as number;
-    // const savedImages = JSON.parse(
-    //   localStorage.getItem("images") || []
-    // ) as ImageType[];
     const savedQuery = localStorage.getItem("query");
     const savedPage =
       Number(localStorage.getItem("page")) || 1;
